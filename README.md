@@ -1,8 +1,8 @@
 # 📖 Minimalist Book Manager API
 
 ## Introduction
-This is the starter repository for the Further APIs session. It provides a start to creating a Minimalist Book Manager API
-using a Test-Driven Development approach.
+This is a starter repository for the Minimalist Book Manager API demonstrating the structure for Externalised Configuration using Application.Properties and Spring Profiles and
+providing examples of H2 In-Memory Database and MySQL Database connections.
 
 ### Pre-Requisites
 - Java SE Development Kit 11
@@ -12,6 +12,7 @@ using a Test-Driven Development approach.
 - Spring Boot
 - Spring Web
 - H2 Database
+- mysql-connector-java
 - Lombok
 - Spring Data JPA
 
@@ -26,21 +27,7 @@ using a Test-Driven Development approach.
 
 `mvn test`
 
-### Tasks
+### Externalising Configuration - application.properties and Spring Profiles
 
-Here are some tasks for you to work on:
-
-📘 Task 1: Implement the following User Story with tests.
-
-`User Story: As a user, I want to use the Book Manager API to delete a book using its ID`
-
-
-📘 Extension Task: Oh no! 😭 We've only covered the happy paths in the solution, can you figure out a way
-to add in exception handling to the project? 
-
-- Clue 1: What if someone wants to add a book with an ID for a book that already exists? How do we handle this gracefully?
-
-
-- Clue 2: What if someone wants to find a book by an ID that doesn't yet exist? 
-  How can we improve the API by handling errors gracefully and show a helpful message to the client?
+- An example structure for Spring Profiles can be viewed in the [resources directory](src/main/resources).
   
